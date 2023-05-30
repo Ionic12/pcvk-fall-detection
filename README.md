@@ -5,17 +5,14 @@
 </div>
 
 <div align="justify">
-Aplikasi untuk deteksi objek untuk mata kuliah PCVK (Pengolahan Citra dan Visi Komputer) adalah sebuah aplikasi yang dikembangkan dengan fokus pada deteksi jatuh (fall detection) menggunakan pengolahan citra dari kamera. Aplikasi ini menggunakan model Convolutional Neural Network (CNN) yang telah dilatih dengan dataset yang diperoleh dari <a href="https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset?resource=download"> Kaggle</a>.
+  Aplikasi yang dikembangkan untuk mata kuliah PCVK (Pengolahan Citra dan Visi Komputer) berfokus pada deteksi jatuh menggunakan pengolahan citra dari kamera. Aplikasi ini menggunakan model Convolutional Neural Network (CNN) yang dilatih dengan dataset dari <a href="https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset?resource=download">. Deteksi jatuh merupakan teknik penting dalam bidang pengolahan citra dan visi komputer, terutama untuk memantau kesejahteraan individu di berbagai lingkungan. Aplikasi ini bertujuan untuk secara otomatis mendeteksi apakah seseorang telah jatuh berdasarkan gambar atau video yang diambil oleh kamera.
 <br><br>
-Deteksi jatuh merupakan suatu teknik yang penting dalam bidang pengolahan citra dan visi komputer, khususnya dalam memonitor keadaan orang-orang yang berada dalam suatu lingkungan. Aplikasi ini bertujuan untuk secara otomatis mendeteksi apakah seseorang mengalami jatuh berdasarkan gambar atau video yang diambil oleh kamera.
+Dengan memanfaatkan kekuatan CNN, model deep learning yang terkenal akan kemampuannya dalam mempelajari fitur-fitur penting pada gambar, aplikasi ini menganalisis dan mempelajari fitur-fitur dari gambar kamera. Aplikasi mencari pola-pola yang menunjukkan apakah seseorang telah jatuh atau tidak. Berdasarkan analisis model, aplikasi memberikan prediksi terkait deteksi jatuh.
 <br><br>
-Aplikasi ini menggunakan model CNN yang merupakan salah satu jenis model deep learning yang efektif dalam mempelajari fitur-fitur penting pada gambar. Model ini telah dilatih menggunakan dataset yang diperoleh dari <a href="https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset?resource=download"> Kaggle</a>, sebuah platform kompetisi data yang menyediakan berbagai dataset untuk digunakan dalam berbagai proyek. Dataset tersebut mungkin berisi gambar-gambar orang yang jatuh dan orang yang berdiri atau berjalan dengan normal.
+Kemampuan pemantauan secara real-time dalam aplikasi ini memungkinkan pengguna untuk memantau kejadian jatuh dalam suatu lingkungan. Aplikasi ini memiliki berbagai manfaat, seperti membantu dalam perawatan lanjut usia, pengawasan pasien, atau keamanan di tempat kerja. Dengan adanya deteksi jatuh otomatis, tindakan cepat dapat dilakukan untuk memberikan bantuan kepada individu yang membutuhkannya.
 <br><br>
-Dalam aplikasi ini, citra atau video dari kamera akan diolah menggunakan model CNN yang telah dilatih. Model akan menganalisis dan mempelajari fitur-fitur pada citra tersebut, mencari pola yang mengindikasikan jatuh atau tidaknya seseorang. Berdasarkan hasil analisis dari model, aplikasi akan memberikan prediksi apakah jatuh terdeteksi atau tidak.
-<br><br>
-Melalui aplikasi ini, pengguna dapat memonitor kondisi jatuh dalam suatu lingkungan secara real-time. Aplikasi ini dapat digunakan untuk berbagai keperluan, seperti perawatan lansia, pengawasan pasien, atau keselamatan di tempat kerja. Dengan adanya deteksi jatuh otomatis, tindakan cepat dapat diambil untuk memberikan bantuan kepada individu yang mengalami kejadian tersebut.
-<br><br>
-Aplikasi ini merupakan salah satu contoh penerapan konsep pengolahan citra dan visi komputer dalam kehidupan sehari-hari. Melalui penggunaan model CNN yang telah dilatih dengan dataset yang relevan, aplikasi ini dapat menjadi alat yang efektif dalam deteksi jatuh dan memberikan manfaat bagi pengguna yang membutuhkannya.
+Secara keseluruhan, model yang dikembangkan memiliki akurasi sebesar 66% dengan presisi dan recall yang lebih baik untuk kelas 0 (Not Fall) dibandingkan kelas 1 (Fall). Skor F1 untuk kelas 0 dan 1 adalah 0,75 dan 0,50, menunjukkan bahwa model ini cukup baik dalam mengklasifikasikan kelas 0 namun perlu perbaikan untuk kelas 1. Meskipun model ini berhasil memprediksi dengan benar 7 dari 8 gambar dan semua video, evaluasi lebih lanjut diperlukan untuk menilai performa keseluruhan dari model ini.
+</div>
 <div align="center">
   
 # Fall Detection Result
