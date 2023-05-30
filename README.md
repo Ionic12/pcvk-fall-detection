@@ -19,5 +19,4 @@ Secara keseluruhan, model yang dikembangkan memiliki akurasi sebesar 66% dengan 
   
 </div>
 
-<img src="Powerpoint/Frame 12.png" />
-  <img src="Powerpoint/Frame 13.png" />
+<img src="Powerpoint/Frame 20.png" />
