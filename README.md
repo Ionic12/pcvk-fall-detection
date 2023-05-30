@@ -5,7 +5,7 @@
 </div>
 
 <div align="justify">
-  Aplikasi yang dikembangkan untuk mata kuliah PCVK (Pengolahan Citra dan Visi Komputer) berfokus pada deteksi jatuh menggunakan pengolahan citra dari kamera. Aplikasi ini menggunakan model Convolutional Neural Network (CNN) yang dilatih dengan dataset dari <a href="https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset?resource=download"/>. Deteksi jatuh merupakan teknik penting dalam bidang pengolahan citra dan visi komputer, terutama untuk memantau kesejahteraan individu di berbagai lingkungan. Aplikasi ini bertujuan untuk secara otomatis mendeteksi apakah seseorang telah jatuh berdasarkan gambar atau video yang diambil oleh kamera.
+  Aplikasi yang dikembangkan untuk mata kuliah PCVK (Pengolahan Citra dan Visi Komputer) berfokus pada deteksi jatuh menggunakan pengolahan citra dari kamera. Aplikasi ini menggunakan model Convolutional Neural Network (CNN) yang dilatih dengan dataset dari <a href="https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset?resource=download">Kaggle</a>. Deteksi jatuh merupakan teknik penting dalam bidang pengolahan citra dan visi komputer, terutama untuk memantau kesejahteraan individu di berbagai lingkungan. Aplikasi ini bertujuan untuk secara otomatis mendeteksi apakah seseorang telah jatuh berdasarkan gambar atau video yang diambil oleh kamera.
 <br><br>
 Dengan memanfaatkan kekuatan CNN, model deep learning yang terkenal akan kemampuannya dalam mempelajari fitur-fitur penting pada gambar, aplikasi ini menganalisis dan mempelajari fitur-fitur dari gambar kamera. Aplikasi mencari pola-pola yang menunjukkan apakah seseorang telah jatuh atau tidak. Berdasarkan analisis model, aplikasi memberikan prediksi terkait deteksi jatuh.
 <br><br>
