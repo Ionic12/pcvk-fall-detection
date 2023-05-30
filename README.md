@@ -22,5 +22,5 @@ Aplikasi ini merupakan salah satu contoh penerapan konsep pengolahan citra dan v
   
 </div>
 
-<img src="Powerpoint/Frame12.png" />
-  <img src="Powerpoint/Frame13.png" />
+<img src="Powerpoint/Frame 12.png" />
+  <img src="Powerpoint/Frame 13.png" />
