@@ -19,4 +19,4 @@ Secara keseluruhan, model yang dikembangkan memiliki akurasi sebesar 66% dengan 
   
 </div>
 
-<img src="Frame 20.png" />
+<img src="Github.png" />
